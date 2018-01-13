@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="/currency-exchange.css">
+<template id="currency-exchange-template">
+  <div class="currency-exchange-container">
+    <h2 class="title">
+      <span>Currency converter</span>
+    </h2>
+  </div>
+  <div>
+    <p>Type in amount and select currency:</p>
+    <div>
+      <input id="amount-from" />
+      <select id="currency-from">
+          <option>CAD</option>
+          <option>USD</option>
+          <option>GBP</option>
+      </select>    </div>
+    <p>Converted amount:</p>
+    <div>
+      <input id="amount-to" disabled />
+      <select id="currency-to">
+          <option>CAD</option>
+          <option>USD</option>
+          <option>GBP</option>
+      </select>
+    </div>
+    <div>
+        <a class="disclaimer">Disclaimer</a>
+    </div>
+    <div class="disclaimerContent" style="display:none">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis finibus leo sit amet accumsan. Fusce in viverra arcu, at auctor eros. Aliquam viverra purus leo, ac imperdiet lorem sodales ac. Morbi a massa id massa accumsan fermentum euismod ut magna. Donec consectetur luctus luctus. Curabitur at tincidunt turpis, vitae scelerisque ex. Suspendisse pretium dui nec ex ultrices semper. Donec eget fermentum odio.</p>
+
+        <p>Donec porttitor porta consequat. Donec ac leo ultricies, iaculis libero a, egestas tortor. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec quis odio hendrerit, ultrices tellus sed, pharetra odio. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus, mauris eu commodo vestibulum, libero nisi porta velit, ut ultrices eros risus sodales quam. Donec lobortis bibendum magna, non ullamcorper diam condimentum quis. Nam ante tortor, sodales a tempus et, hendrerit vel tellus.</p>
+    </div>
+  </div>
+</template>
+<script src="/currency-exchange.js"></script>
